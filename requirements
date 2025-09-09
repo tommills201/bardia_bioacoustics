@@ -1,6 +1,13 @@
 tensorflow==2.19
+pandas
 numpy
 librosa
 gradio
 webview
 scikit-learn
+matplotlib
+umap-learn
+hdbscan
+ipython
+librosa
+seaborn
