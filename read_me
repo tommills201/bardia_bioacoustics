@@ -1,0 +1,28 @@
+********
+I - DATA
+********
+
+The following data were used and can be made avaialable on request:
+1) Combined metadata for all years  = nepalbirds_metadata2
+2) Combined metadata for 2021 = nepalbirds_metadata2021
+3) BirdNET Detections for all year - *ADD HERE*
+4) BirdNET Features for all year - *ADD HERE*
+5) BirdNET Featurews sample of 7-days recordings every 2 hours = nepalbirds2021_sample3_even 
+
+*********
+II - CODE
+*********
+
+1) GIS plotting of recorder locations =
+(Output is...
+
+2) Initial Analysis of Audio Files Structure = 02
+(Output is the combined metadata: nepalbirds_metadata2021)
+
+3) Sample creation
+  = 03
+(Output is the sample for analysis: nepalbirds2021_sample3_even)
+
+4) DR & Clustering
+  = 04
+(Output is the sample for analysis labelled with clusters: nepalbirds2021_sample3_even_clustered)
