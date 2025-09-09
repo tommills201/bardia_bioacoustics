@@ -1,0 +1,5 @@
+tensorflow==2.19
+numpy
+librosa
+gradio
+webview
