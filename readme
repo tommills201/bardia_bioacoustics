@@ -13,16 +13,28 @@ The following data were used and can be made avaialable on request:
 II - CODE
 *********
 
-1) GIS plotting of recorder locations = NB25_map_plot.R
-(Output is...
+01_NB25_map_plot.R
+- GIS plotting of recorder locations
+- Output is (Fig 1) Map of Bardia National Park
 
-2) Initial Analysis of Audio Files Structure = 02
-(Output is the combined metadata: nepalbirds_metadata2021)
+02_NB25_sample
+- Sample creation
+- Output is the sample for analysis: nepalbirds2021_sample3_even
 
-3) Sample creation
-  = 03
-(Output is the sample for analysis: nepalbirds2021_sample3_even)
+03_NB25_cluster_and_evaluation2
+- Dimensionality Reduction and HDBSCAN clustering 
+- Removal of HDBSCAN noise cluster
+- Evaluation of HDBSCAN parameter choices (Table 2)
+- Creates validation sample 
+- Tests for biases by Location (Fig 3 2D plot, plus ARI and AMI scores)
+- Creates plot for recording sites (Fig 4 top right plot)
+- Creates Histograms of highest percentage contributions of sites to clusters (Fig 4 and Fig 6)
+- Also gives output is the sample for visual analysis labelled with clusters: nepalbirds2021_sample3_even_clustered
 
-4) DR & Clustering
-  = 04
-(Output is the sample for analysis labelled with clusters: nepalbirds2021_sample3_even_clustered)
+04_NB25_spectrogram_validation
+- Creates spectrograms for random sample for visual analysis (Fig 3 spectrograms)
+
+05_NB25_detections_by_cluster
+- Assesses detections across clusters (Fig 5)
+
+NB. Fig 2 was created in google slides and imported
